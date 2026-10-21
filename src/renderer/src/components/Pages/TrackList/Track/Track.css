@@ -1,0 +1,53 @@
+.track-item {
+    display: flex;
+    flex-direction: row;
+
+    height: 60px;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+    /* border: 1px solid var(--main-color); */
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.track-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.track-item img {
+    border-radius: 6px;
+}
+
+.track-image-plug {
+    height: 50px;
+    aspect-ratio: 1;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+.track-item-text {
+    display: flex;
+
+    /* flex-direction: column; */
+
+    gap: 10px;
+    width: 100%;
+    margin-left: 15px;
+    align-items: center;
+
+    color: var(--main-color);
+}
+
+.track-item h2 {
+    font-size: 20px;
+}
+
+.track-title {
+    color: var(--secondary-text-color);
+}
+
+.track-artist {
+    font-size: 20px;
+}

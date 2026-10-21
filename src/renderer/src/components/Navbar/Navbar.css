@@ -1,0 +1,63 @@
+.navbar-wrapper {
+  display: flex;
+  align-items: center;          /* вертикальное центрирование кнопок и заголовка */
+  width: 100%;
+  box-shadow: 0 1px 3px var(--secondary-bg-color);
+}
+
+/* Левая колонка: назад и/или гамбургер */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 2px;                     /* если однажды будут две кнопки рядом */
+  min-width: 55px;              /* = ширина одной кнопки, чтобы центр не прыгал */
+}
+
+/* Правая колонка: пустая, но симметричная левой */
+.navbar-right {
+  min-width: 55px;
+}
+
+/* Центр: заголовок вкладки */
+.navbar-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.navbar-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--main-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Ваша кнопка — без изменений визуала */
+.navbar-button {
+  width: 55px;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
+  font-size: 24px;
+  display: inline-flex;         /* чтобы SVG и ≡ центрировались */
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-button:hover {
+  color: var(--secondary-color);
+  background-color: var(--secondary-bg-color);
+  box-shadow: 0 1px 3px var(--secondary-bg-color),
+              inset 0 0 5px var(--secondary-color);
+}
+
+.navbar-button:focus-visible {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: -2px;
+}

@@ -1,0 +1,15 @@
+.track-list {
+    list-style: none;
+    
+    margin: 10px;
+}
+
+.track-list-title {
+    margin-block: 15px;
+    text-align: center;
+}
+
+.track-list-plug {
+    text-align: center;
+    color: var(--main-color);
+}
