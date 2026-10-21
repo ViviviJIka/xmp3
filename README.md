@@ -1,6 +1,6 @@
-# xtrlsnd
+# xmp3
 
-An Electron application with React and TypeScript
+Music Player based on Electron/React/TypeScript
 
 ## Recommended IDE Setup
 
