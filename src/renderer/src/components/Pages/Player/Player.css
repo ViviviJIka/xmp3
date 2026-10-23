@@ -8,19 +8,18 @@
     height: 90%;
 }
 
-.player-wrapper img {
-    /* margin-block: 50px; */
-    border-radius: 16px;
-}
-
 .player-image-plug {
     width: 280px;
     height: 280px;
 
     background-color: #000000;  
-    border-radius: 16px;
 
     box-shadow: 0px 1px 5px rgb(0, 0, 0);
+}
+
+.player-wrapper img, .player-image-plug {
+    border-radius: 16px;
+    margin-bottom: 5px;
 }
 
 .player-track-text {

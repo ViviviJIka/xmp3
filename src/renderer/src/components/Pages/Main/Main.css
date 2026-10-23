@@ -1,0 +1,93 @@
+.main-wrapper {
+    padding-inline: 15px;
+    width: 100%; 
+}
+
+.personal-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.personal-item:not(:first-of-type) {
+    margin-top: 10px;
+}
+
+.personal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0 8px 0;
+}
+
+/* Playlists */
+.personal-playlists-list {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+
+    margin-bottom: 20px;
+}
+
+.personal-playlist-title {
+    font-size: 16px;
+}
+
+.personal-playlist-author {
+    font-size: 12px;
+    color: var(--secondary-text-color)
+}
+
+.personal-playlists-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+    background-color: var(--hover-bg-color);
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
+.personal-playlist-image-plug {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/* Tracks */
+.personal-tracks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.personal-tracks-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: var(--hover-bg-color);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.personal-tracks-item h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.track-name {
+    color: var(--secondary-text-color);
+}
+
+.personal-tracks-item img, .personal-track-image-plug {
+    width: 40px;
+    aspect-ratio: 1;
+    
+    background-color: #000;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.personal-playlists-item:hover, .personal-tracks-item:hover {
+    background-color: var(--secondary-bg-color);
+}

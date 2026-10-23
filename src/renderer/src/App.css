@@ -4,6 +4,8 @@
     --secondary-bg-color: #05050580;
     --secondary-color: #528a9a;
     --secondary-text-color: #a39d9d;
+
+    --hover-bg-color: rgba(0, 0, 0, 0.3);
 }
 
 * {
